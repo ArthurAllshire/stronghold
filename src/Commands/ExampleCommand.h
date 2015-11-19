@@ -1,10 +1,10 @@
 #ifndef EXAMPLE_COMMAND_H
 #define EXAMPLE_COMMAND_H
 
-#include "../CommandBase.h"
+#include <Stronghold.h>
 #include "WPILib.h"
 
-class ExampleCommand: public CommandBase
+class ExampleCommand: public Command
 {
 public:
 	ExampleCommand();
